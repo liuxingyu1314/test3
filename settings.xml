@@ -135,6 +135,16 @@ under the License.
       <username>admin</username>
       <password>csd@123</password>
     </server>
+	<server>
+      <id>maven-releases</id>
+      <username>admin</username>
+      <password>csd@123</password>
+    </server>	
+	<server>
+      <id>maven-snapshots</id>
+      <username>admin</username>
+      <password>csd@123</password>
+    </server>	
   </servers>
 
   <!-- mirrors
@@ -229,7 +239,8 @@ under the License.
           <url>http://10.239.113.92:8081/repository/maven-3rd/</url>
 		  <releases><enabled>true</enabled></releases>
 		  <snapshots><enabled>true</enabled></snapshots>
-        </repository>		
+        </repository>	
+	
       </repositories>
 	  <pluginRepositories>
 	    <pluginRepository>
