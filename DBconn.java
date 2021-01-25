@@ -3,8 +3,8 @@ import java.sql.*;
 
 public class DBconn {
 	//static String url = "jdbc:mysql://172.16.10.200:3306/test?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
-	static String url = "jdbc:mysql://localhost:3306/test?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
-	//static String url = "jdbc:mysql://10.239.113.92:3306/test?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+	//static String url = "jdbc:mysql://localhost:3306/test?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+	static String url = "jdbc:mysql://10.239.113.92:3306/test?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
 	static String username = "root";
 	static String password = "123456";
 	static Connection conn = null;
